@@ -1,9 +1,9 @@
-/* Assigment 5-2
+/* Assignment 5-2
 Student ID: 00318934
 Name: Patricia Antlitz
 Professor Ethel Schuster
 Introduction to Computer Science CIS-140
-12 October 2020 
+12 October 2020
 
 2. colored_circles: draw 2 concentric circles.
 
@@ -11,7 +11,7 @@ Introduction to Computer Science CIS-140
 colored circles. Was I supposed to color them?
 I didn't)
 
-I have used other sources, as detailed in my submitted source file. 
+I have used other sources, as detailed in my submitted source file.
 List these sources:
 
 https://processing.org/examples/functions.html
@@ -37,11 +37,11 @@ void draw(){
   // set the screen background color to white.
   background(255);
   // call the function drawCircle twice to create each circle
-  /* set the params of the first circle to x to xloc (250px), y to xloc(250). 
+  /* set the params of the first circle to x to xloc (250px), y to xloc(250).
   Give it a width of "size" (400) and a height of "size" (400). */
   drawCircle(xloc, yloc, size, size);
   /* set the params of the second circle to x to xloc (250px), y to xloc(250).
-  Give it a width of "size" divided by 2 (200) and a height of "size" divided 
+  Give it a width of "size" divided by 2 (200) and a height of "size" divided
   by 2 (200). */
   drawCircle(xloc, yloc, size/2, size/2);
 }

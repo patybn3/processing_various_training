@@ -1,11 +1,11 @@
-/* Assigment 5-6
+/* Assignment 5-6
 Student ID: 00318934
 Name: Patricia Antlitz
 Professor Ethel Schuster
 Introduction to Computer Science CIS-140
-12 October 2020 
+12 October 2020
 
-6. four_square: divide a 200 x 200 canvas in n=4 equal squares and apply 
+6. four_square: divide a 200 x 200 canvas in n=4 equal squares and apply
 different colors to each
 
 The work I am submitting is my own in its entirety
@@ -31,25 +31,25 @@ void setup(){
 // Function draw holds the commands to run the program
 void draw(){
   // no backgound color needed
-  
+
   // set local variables for size and location of x and y
   int wide = width/2;
   int tall = height/2;
-  
-  // call function drawRect 
+
+  // call function drawRect
   /* sets the color to black, x = 0, y = 0, make it as wide as half of the
   width and as tall as half of the height */
   drawRect(black, orig, orig, wide, tall);
-  /* sets the color green, x = 0, y = half of the screen's height, 
+  /* sets the color green, x = 0, y = half of the screen's height,
   make it as wide as half of the width and as tall as half of the height */
   drawRect(green, orig, tall, wide, tall);
-  /* sets the color to darkPink, x = half of the width, y = 0, 
+  /* sets the color to darkPink, x = half of the width, y = 0,
   make it as wide as half of the width and as tall as half of the height */
   drawRect(darkPink, wide, orig, wide, tall);
   /* sets the color to blue, x = half of the width, y = half of the height,
   make it as wide as half of the width and as tall as half of the height */
   drawRect(blue, wide, tall, wide, tall);
-  
+
 }
 
 /*Function drawRect created a square on the screen. It takes param "c" for

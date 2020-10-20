@@ -1,11 +1,11 @@
-/* Assigment 5-7
+/* Assignment 5-7
 Student ID: 00318934
 Name: Patricia Antlitz
 Professor Ethel Schuster
 Introduction to Computer Science CIS-140
-14 October 2020 
+14 October 2020
 
-7. three_hor: divide a 300 x 300 into 3 horizontal rectangles and color 
+7. three_hor: divide a 300 x 300 into 3 horizontal rectangles and color
 them red, yellow, and blue
 
 The work I am submitting is my own in its entirety
@@ -30,7 +30,7 @@ void setup(){
 void draw(){
   // set a background color of yellow
   background(yellow);
-  
+
   // set variables for x and y locations
   // origin 0
   int orig = 0;
@@ -43,14 +43,14 @@ void draw(){
   /* rectloc is equal to the width of the screen minus the width
   divide by 3 */
   float rectloc = tall - size;
-  
+
   // call function horizontalRect to draw rect
   horizontalRect(red, orig, orig, wide, size);
   horizontalRect(blue, orig, rectloc, wide, size);
-  
+
 }
 
-/* Function horizontalRect calls params "c" of type integer for color 
+/* Function horizontalRect calls params "c" of type integer for color
 selection, "x" for x location of type float, "y" for y location of type
 float, "wide" for the width of the rectangle and tall for the height */
 
